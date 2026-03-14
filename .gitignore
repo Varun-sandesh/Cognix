@@ -1,3 +1,9 @@
+# Secrets and Credentials
+.env
+.env.local
+.env.*.local
+*.env
+
 # Logs
 logs
 *.log
