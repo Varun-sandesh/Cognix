@@ -10,23 +10,33 @@ import {
   X,
   Zap,
   GraduationCap,
+<<<<<<< HEAD
   Trophy,
   LogOut,
 } from "lucide-react";
 import { useAuth } from "@/contexts/AuthContext";
+=======
+} from "lucide-react";
+>>>>>>> 6b1158926b7a5b9788e4f962b4e0dbd98e079b26
 
 const navItems = [
   { path: "/", label: "Dashboard", icon: LayoutDashboard },
   { path: "/chat", label: "AI Chatbot", icon: Bot },
   { path: "/directory", label: "Staff Directory", icon: Users },
   { path: "/doubts", label: "Doubt Board", icon: MessageSquare },
+<<<<<<< HEAD
   { path: "/leaderboard", label: "Leaderboard", icon: Trophy },
+=======
+>>>>>>> 6b1158926b7a5b9788e4f962b4e0dbd98e079b26
 ];
 
 export default function AppLayout({ children }: { children: React.ReactNode }) {
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const location = useLocation();
+<<<<<<< HEAD
   const { profile, signOut } = useAuth();
+=======
+>>>>>>> 6b1158926b7a5b9788e4f962b4e0dbd98e079b26
 
   return (
     <div className="flex h-screen overflow-hidden bg-background">
@@ -91,6 +101,7 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
           })}
         </nav>
 
+<<<<<<< HEAD
         {/* User info + Logout */}
         <div className="border-t border-border p-4 space-y-3">
           {profile && (
@@ -113,6 +124,19 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
             <LogOut className="h-3.5 w-3.5" />
             Sign Out
           </button>
+=======
+        {/* Bottom */}
+        <div className="border-t border-border p-4">
+          <div className="glass-card flex items-center gap-3 p-3">
+            <div className="flex h-8 w-8 items-center justify-center rounded-full bg-accent/20">
+              <GraduationCap className="h-4 w-4 text-accent" />
+            </div>
+            <div className="flex-1 min-w-0">
+              <p className="truncate text-xs font-medium text-foreground">Open Source</p>
+              <p className="truncate text-[10px] text-muted-foreground">Swap data for your uni</p>
+            </div>
+          </div>
+>>>>>>> 6b1158926b7a5b9788e4f962b4e0dbd98e079b26
         </div>
       </aside>
 
