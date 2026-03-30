@@ -1,4 +1,4 @@
-# Cognix — Universal Campus Intelligence Platform 🎓
+# Cognix Universal Campus Intelligence Platform 🎓
 
 **Cognix** is an AI-powered application and a universal campus intelligence platform that bridges the communication gap between students and faculty. By centralizing staff data and campus resources into a single hub, it offers students a live doubt-solving interface and a dedicated AI chatbot for instant access to university information.
 
@@ -10,7 +10,7 @@ Whether on mobile or PC, Cognix streamlines campus life into one smart, open-sou
 
 ### 1. AI Chatbot Hub (RAG-Powered)
 - Context-aware chatbot that answers questions about university info
-- **Retrieval-Augmented Generation (RAG)** — pulls from a modular campus knowledge base
+- **Retrieval-Augmented Generation (RAG)**   pulls from a modular campus knowledge base
 - Covers: building locations, dean's office hours, library rules, events, contacts, academic calendar
 - Suggested questions for quick access
 
@@ -120,4 +120,4 @@ Open source — built for the community. Feel free to fork, adapt, and deploy fo
 
 ---
 
-**Built with ❤️ for hackathons and campuses everywhere.**
+**Built with ❤️ by team ACE.**
