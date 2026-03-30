@@ -116,7 +116,7 @@ npm run build
 
 ## 📄 License
 
-Open source — built for the community. Feel free to fork, adapt, and deploy for your campus.
+Open source, built for the community. Feel free to fork, adapt, and deploy for your campus.
 
 ---
 
