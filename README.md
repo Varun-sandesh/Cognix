@@ -6,6 +6,11 @@ Whether on mobile or PC, Cognix streamlines campus life into one smart, open-sou
 
 ---
 
+## 🌍 Live Demo
+
+- 🚀 App: cognix-six.vercel.ap  
+- 🎥 Demo: https://your-video.com  
+
 ## 🚀 Features
 
 ### 1. AI Chatbot Hub (RAG-Powered)
@@ -116,7 +121,23 @@ npm run build
 
 ## 📄 License
 
-Open source, built for the community. Feel free to fork, adapt, and deploy for your campus.
+Apache License
+Version 2.0, January 2004
+http://www.apache.org/licenses/
+
+Copyright 2026 Team ACE
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
 
 ---
 
